@@ -32,77 +32,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75085d13-56d1-4dd2-89c0-3037d84bbce4" name="Default" comment="First commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BBDigDataAdmin.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/CustomOnItemSelectedListener.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/CustomOnItemSelectedListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DashboardActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/DashboardActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DatabaseHandler.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/DatabaseHandler.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/database/DigDataSQLiteOpenHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DigitizingDataApplication.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/DigitizingDataApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/FindVslaActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/FindVslaActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/GlobalConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/LoginActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/PassKeyGenerator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/Repository.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/Repository.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/tests/RepositoryTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/.idea/dictionaries/Sarahk.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/Validator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/Validator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/model/Vsla.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/Vsla.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaAdminDashboardActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaAdminDashboardActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaAdminFunctions.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaAdminFunctions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/model/VslaKit.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaKit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaKitDeliveryActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaKitProvider.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaKitProviderAPI.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaPassKeyGenerate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaPassKeyGenerateActivity.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaProvider.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaProviderAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/color.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/values/color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimen.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/values/dimen.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/header.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/header.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/vsla_admin_dashboard.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/vsla_admin_dashboard.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/vsla_kit_delivery.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/vsla_kit_delivery.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/vsla_pass_key.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/drawable-hdpi/vsla_register_tab.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/vsla_search.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/vsla_search.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/drawable-hdpi/vsla_search_tab.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BBDigDataAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,7 +79,7 @@
     <file path="/RepositoryTest.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1372944491677" ignored="false" />
     <file path="/VslaProvider.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373259610328" ignored="false" />
     <file path="/VslaProviderAPI.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373015450491" ignored="false" />
-    <file path="/Dummy.txt" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374750957349" ignored="false" />
+    <file path="/Dummy.txt" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374780390767" ignored="false" />
     <file path="/fragment.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374506389732" ignored="false" />
     <file path="/DatabaseHandler.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373863689254" ignored="false" />
     <file path="/VslaDAO.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373269922119" ignored="false" />
@@ -139,6 +101,8 @@
     <file path="/color.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374550821427" ignored="false" />
     <file path="/login.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374752802289" ignored="false" />
     <file path="/DigDataSQLiteOpenHelper.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374755442859" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/org/applab/digdata/client/mob/admin/Manifest.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374780621032" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/org/applab/digdata/client/mob/admin/R.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374780621032" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +188,7 @@
       <file leaf-file-name="VslaProvider.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="61" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-3.6363637">
+            <state line="30" column="61" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-5.8785944">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -846,6 +810,11 @@
       <created>1372931559015</created>
       <updated>1372931559015</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1374780619785</created>
+      <updated>1374780619785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -874,7 +843,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7666099" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23560606" sideWeight="0.7666099" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.6712095" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -890,7 +859,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36666667" sideWeight="0.6013629" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36666667" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23339012" sideWeight="0.7113636" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1085,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="61" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-3.6363637">
+        <state line="30" column="61" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-5.8785944">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
