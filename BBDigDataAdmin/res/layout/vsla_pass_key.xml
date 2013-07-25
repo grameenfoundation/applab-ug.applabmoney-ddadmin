@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!-- Consistent screen header-->
+    <ViewStub
+            android:id="@+id/vsHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/header"
+            android:layout="@layout/header"/>
+
+    <!-- Screen Design for VSLA Register -->
+    <TextView
+            android:id="@+id/vslaSearchLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/screenLabelText"
+            android:text="@string/vslaIdPromptText"/>
+
+    <!-- VSLA ID Input field -->
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="36dp">
+
+        <TextView
+                android:layout_width="88dp"
+                android:layout_height="42dp"
+                android:text="@string/vslaId"
+                android:id="@+id/textViewVslaId"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="88dp"
+                android:layout_height="42dp"
+                android:id="@+id/vslaIdTxt"
+                android:layout_gravity="center"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="36dp">
+
+        <TextView
+                android:layout_width="88dp"
+                android:layout_height="42dp"
+                android:text="@string/passKey"
+                android:id="@+id/textViewPassKey"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="88dp"
+                android:layout_height="42dp"
+                android:id="@+id/passKeyTxt"
+                android:layout_gravity="center"/>
+    </TableRow>
+
+
+    <Button
+            android:id="@+id/accept_passkey_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="@string/acceptPasskey"/>
+    <!-- android:onClick="onClickSearch" -->
+
+
+</LinearLayout>

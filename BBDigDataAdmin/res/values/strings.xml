@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DigData Administrator</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtuserid">UserID</string>
+    <string name="txtscreenlogo">BB VSLA Admin</string>
+    <string name="deliverKit">Deliver Kit</string>
+    <string name="generatePasskey">Generate VSLA Passkey</string>
+    <string name="deliverKitTitleText">Kit Delivery Info</string>
+    <string name="vslaId">VSLA ID</string>
+    <string name="vslaName">VSLA Name</string>
+    <string name="receivedBy">Received By</string>
+    <string name="chargeSetSerial">Charge Set Serial No.:</string>
+    <string name="phoneNumber">Phone Number:</string>
+    <string name="phoneImei">Phone IMEI:</string>
+    <string name="phoneModel">Phone Model:</string>
+    <string name="phoneType">Phone Type:</string>
+    <string name="txtVslaSearch">Search</string>
+    <string name="vslaIdPromptText">Please Enter the VSLA ID for the VSLA you are Searching for</string>
+    <string name="chargeSetManufacturer">chargeSetManufacturer</string>
+    <string name="acceptPasskey">Accept Key</string>
+    <string name="passKey">Generated Passkey</string>
+    <string name="Exit">Exit</string>
+    <string name="titleLogin">LOGIN</string>
+    <string name="txtEmailAddress">Email</string>
+    <string name="labelSubmit">Submit</string>
+
+</resources>

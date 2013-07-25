@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/panelIconLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true">
+
+        <!--<Button
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Exit"
+                style="@style/screenLabelText"
+                android:onClick="btnHomeClick"
+                android:layout_gravity="center"/>     -->
+        <TextView
+                android:id="@+id/btnHome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Exit"
+                style="@style/screenLabelText"
+                android:onClick="btnHomeClick"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/text_size_medium"/>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/txtHeading"
+            style="@style/HeadingText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/panelIconRight"
+            android:layout_toRightOf="@id/panelIconLeft"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@android:color/white"/>
+
+    <LinearLayout
+            android:id="@+id/panelIconRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp">
+
+        <Button
+                android:id="@+id/btnHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_size_small"
+                android:onClick="btnHelpClick"
+                android:textColor="#0206c7"/>
+    </LinearLayout>
+
+</RelativeLayout>
