@@ -22,27 +22,31 @@
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/txtEmailAddress"/>
+                android:text="@string/txtEmailAddress"
+                android:textSize="@dimen/text_size_medium"/>
         <!--  Email TextField -->
         <EditText
                 android:id="@+id/loginEmail"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"/>
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/text_size_medium"/>
 
         <!--  Password Label -->
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dip"
-                android:text="@string/txtPassword"/>
+                android:text="@string/txtPassword"
+                android:textSize="@dimen/text_size_medium"/>
         <!--  Password TextField -->
         <EditText
                 android:id="@+id/loginPassword"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:password="true"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword"
+                android:textSize="@dimen/text_size_medium"/>
 
         <!--  Error message -->
         <TextView
@@ -59,7 +63,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dip"
-                android:text="@string/txtLogin"/>
+                android:text="@string/txtLogin"
+                android:textSize="@dimen/text_size_medium"/>
 
     </LinearLayout>
 

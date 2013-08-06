@@ -86,7 +86,8 @@ public class LoginActivity extends Activity {
                 if (email.equals("xxx@xxx.com") && password.equals("xxx")) {
 
                     // Launch Search screen
-                    Intent searchVsla = new Intent(getApplicationContext(), FindVslaActivity.class);
+                   // Intent searchVsla = new Intent(getApplicationContext(), FindVslaActivity.class);
+                    Intent searchVsla = new Intent(getApplicationContext(), ListVslaActivity.class);
 
                     // Close all views before launching Search screen
                     searchVsla.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

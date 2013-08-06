@@ -39,7 +39,7 @@
         <activity
                 android:name=".VslaKitDeliveryActivity"/>
         <activity
-                android:name=".FindVslaActivity"/>
+                android:name=".ListVslaActivity"/>
         <activity
                 android:name=".VslaPassKeyGenerateActivity"/>
 

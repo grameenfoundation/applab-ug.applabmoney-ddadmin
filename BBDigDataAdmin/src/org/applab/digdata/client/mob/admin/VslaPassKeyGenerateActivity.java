@@ -20,6 +20,7 @@ public class VslaPassKeyGenerateActivity extends DashboardActivity {
     private Button acceptPassKeyButton;
     private Vsla vsla;
     private TextView passKey;
+    private TextView vslaId;
 
     /**
      * Called when the activity is first created
@@ -30,15 +31,17 @@ public class VslaPassKeyGenerateActivity extends DashboardActivity {
         setContentView(R.layout.vsla_pass_key);
         setHeader(true, false);
 
-
+        vsla = (Vsla) getIntent().getExtras().get("vsla");
+        if(null!=vsla){
+            Log.i("Passkey Activity", vsla.getName());
+        }
         try {
-            dbHandler = new DatabaseHandler(getApplicationContext());
-            vsla = (Vsla) getIntent().getExtras().get("vsla");
 
             // Importing all assets like buttons, text fields
             this.passKey = (TextView) findViewById(R.id.passKeyTxt);
+            this.vslaId = (TextView)findViewById(R.id.vslaIdTxt);
             this.acceptPassKeyButton = (Button) findViewById(R.id.accept_passkey_button);
-
+            vslaId.setText(vsla.getId().toString().trim());
             if (null != generateVslaPasskey().toString().trim()) {
                 passKey.setText(generateVslaPasskey().toString().trim());
 
@@ -65,6 +68,7 @@ public class VslaPassKeyGenerateActivity extends DashboardActivity {
     private void updateVslaPassKey(Vsla vsla) {
         boolean updateSuccess;
         try {
+            dbHandler = new DatabaseHandler(getApplicationContext());
             updateSuccess = dbHandler.updateVsla(vsla);
 
             if (updateSuccess) {
@@ -97,7 +101,7 @@ public class VslaPassKeyGenerateActivity extends DashboardActivity {
 
                         // If this button is clicked, close current activity
                         Intent openDashboard = new Intent(VslaPassKeyGenerateActivity.this,
-                                FindVslaActivity.class);
+                                ListVslaActivity.class);
                         startActivity(openDashboard);
                     }
                 });

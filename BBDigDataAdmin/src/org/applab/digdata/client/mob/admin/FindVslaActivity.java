@@ -56,7 +56,6 @@ public class FindVslaActivity extends DashboardActivity {
             });
         } catch (Exception ex) {
             Log.e("FindVsla vsla count", "" + ex.toString());
-
         }
     }
 
@@ -65,7 +64,7 @@ public class FindVslaActivity extends DashboardActivity {
             showToast(FindVslaActivity.this, "Please enter the VSLA ID!!");
             isValid = false;
         } else {
-            vsla = dbHandler.getVslaFromDb(vslaIdText.getText().toString().trim());
+            vsla = dbHandler.getVslaFromDbById(vslaIdText.getText().toString().trim());
             if (null == vsla.getId()) {
                 isValid = false;
                 showToast(FindVslaActivity.this, "Invalid VSLAID!!");

@@ -61,12 +61,6 @@ public class VslaKitDeliveryActivity extends DashboardActivity {
         vslaNameText.setText(vsla.getName());
         Log.i("ONCREATE", vslaIdText.getText().toString());
 
-        //loginErrorMsg = (TextView) findViewById(R.id.login_error);
-
-        // Spinner click listener
-        //phoneModel.setOnItemSelectedListener(new CustomOnItemSelectedListener());
-        //phoneManufacturer.setOnItemSelectedListener(new CustomOnItemSelectedListener());
-
         this.addItemsOnPhoneManufacturerSpinner();
         this.addItemsOnPhoneModelSpinner();
         this.addItemsOnChargeSetManufacturerSpinner();
@@ -191,9 +185,6 @@ public class VslaKitDeliveryActivity extends DashboardActivity {
             Toast.makeText(this, String.format("ERR: %s", ex.getMessage()), Toast.LENGTH_LONG).show();
         }
         if (submitSuccess) {
-            // Submit data on form
-
-            // Toast.makeText(this, "Submitting form...", Toast.LENGTH_SHORT).show();
             alertMessage();
 
         } else {
@@ -215,7 +206,7 @@ public class VslaKitDeliveryActivity extends DashboardActivity {
                 .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         Intent openDashboard = new Intent(VslaKitDeliveryActivity.this,
-                                FindVslaActivity.class);
+                                ListVslaActivity.class);
                         startActivity(openDashboard);
                     }
                 });

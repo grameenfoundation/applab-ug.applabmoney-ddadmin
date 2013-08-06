@@ -22,7 +22,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     // All Static variables
     // Database Version
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     // Database Name
     private static final String DATABASE_NAME = "digdata";
     // VSLA table name
@@ -174,7 +174,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     }
 
-    public Vsla getVslaFromDb(String vslaId) {
+    public Vsla getVslaFromDbById(String vslaId) {
         SQLiteDatabase db = this.getReadableDatabase();
 
         List<Vsla> vslas = new ArrayList<Vsla>();
@@ -206,6 +206,73 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         }
     }
 
+    public Vsla getVslaFromDbByName(String selectedItem) {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        List<Vsla> vslas = new ArrayList<Vsla>();
+        Vsla vsla = new Vsla();
+
+        String selection = VslaProviderAPI.VslaColumns.VSLA_NAME + "=?";
+        String[] selectionArgs = {selectedItem};
+        Cursor vslaCursor = null;
+        try {
+            vslaCursor = db.query(TABLE_VSLA, null, selection, selectionArgs, null, null, null);
+            Log.i("VSLA DB COUNT", String.valueOf(vslaCursor.getCount()));
+            vslaCursor.moveToFirst();
+            while (!vslaCursor.isAfterLast()) {
+                vsla.setId(vslaCursor.getString(vslaCursor.getColumnIndex(VslaProviderAPI.VslaColumns.VSLA_ID)));
+                vsla.setName(vslaCursor.getString(vslaCursor.getColumnIndex(VslaProviderAPI.VslaColumns.VSLA_NAME)));
+                vslas.add(vsla);
+                vslaCursor.moveToNext();
+            }
+            vslaCursor.close();
+            Log.i("VSLA", String.valueOf(vslas.get(0)));
+            return vslas.get(0);
+
+        } catch (Exception ex) {
+            Log.e("Repository.getVslafromDB", "" + ex.toString());
+            return vsla;
+        } finally {
+            if (vslaCursor != null) {
+                vslaCursor.close();
+            }
+        }
+    }
+
+    //public ArrayList<String> getAllVslasFromDb() {
+    public ArrayList<Vsla> getAllVslasFromDb() {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        ArrayList<Vsla> vslaArray= new ArrayList<Vsla>();
+
+       // ArrayList<String> vslas = new ArrayList<String>();
+        Cursor vslaCursor = null;
+        try {
+            vslaCursor = db.query(TABLE_VSLA, null, null, null, null, null, null);
+            Log.i("VSLA DB COUNT", String.valueOf(vslaCursor.getCount()));
+            vslaCursor.moveToFirst();
+            while (!vslaCursor.isAfterLast()) {
+                Vsla vsla = new Vsla();
+                vsla.setId(vslaCursor.getString(vslaCursor.getColumnIndex(VslaProviderAPI.VslaColumns.VSLA_ID)));
+                vsla.setName(vslaCursor.getString(vslaCursor.getColumnIndex(VslaProviderAPI.VslaColumns.VSLA_NAME)));
+                //vslas.add("Name: " + vsla.getName() + "\r\n" + "ID: " + vsla.getId());
+                vslaArray.add(vsla);
+                vslaCursor.moveToNext();
+            }
+            vslaCursor.close();
+            //return vslas;
+            return vslaArray;
+
+        } catch (Exception ex) {
+            Log.e("Repository.getAllVslasfromDB", "" + ex.getStackTrace());
+            return vslaArray;
+        } finally {
+            if (vslaCursor != null) {
+                vslaCursor.close();
+            }
+        }
+    }
+
     public void insertDefaultData() {
         // Create a repo and pass in the current Application Repo for connecting to the database
 
@@ -213,7 +280,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
         vsla = new Vsla();
         vsla.setId("BB2345");
-        vsla.setName("God gives");
+        vsla.setName("God Gives");
         vsla.setPasskey("3576tyw");
         addVslaInfo(vsla);
 
@@ -225,14 +292,50 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
         vsla = new Vsla();
         vsla.setId("BB3437");
-        vsla.setName("Invest wisely");
-        vsla.setPasskey("1276trg");
+        vsla.setName("Invest Wisely");
+        vsla.setPasskey("176trg");
         addVslaInfo(vsla);
 
         vsla = new Vsla();
         vsla.setId("BC7845");
-        vsla.setName("We are humble");
+        vsla.setName("We are Humble");
         vsla.setPasskey("ty6t37");
+        addVslaInfo(vsla);
+
+        vsla = new Vsla();
+        vsla.setId("BE7912");
+        vsla.setName("What we have is Ours");
+        vsla.setPasskey("tiy4er");
+        addVslaInfo(vsla);
+
+        vsla = new Vsla();
+        vsla.setId("BG8812");
+        vsla.setName("Welcome Please");
+        vsla.setPasskey("hj34e1");
+        addVslaInfo(vsla);
+
+        vsla = new Vsla();
+        vsla.setId("BA6722");
+        vsla.setName("Old Man's Eye");
+        vsla.setPasskey("hf34e7");
+        addVslaInfo(vsla);
+
+        vsla = new Vsla();
+        vsla.setId("BG5426");
+        vsla.setName("Early Risers");
+        vsla.setPasskey("h35634");
+        addVslaInfo(vsla);
+
+        vsla = new Vsla();
+        vsla.setId("BW1228");
+        vsla.setName("To Build Each Other");
+        vsla.setPasskey("h35634");
+        addVslaInfo(vsla);
+
+        vsla = new Vsla();
+        vsla.setId("BY3217");
+        vsla.setName("Use what you have");
+        vsla.setPasskey("y3ui67");
         addVslaInfo(vsla);
 
         /** VslaKit vslaKit = null;
@@ -249,4 +352,5 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     }
 
 
+    
 }

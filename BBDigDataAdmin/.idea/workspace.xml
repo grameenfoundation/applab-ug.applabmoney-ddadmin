@@ -28,48 +28,32 @@
     </option>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75085d13-56d1-4dd2-89c0-3037d84bbce4" name="Default" comment="First commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/CustomOnItemSelectedListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/DashboardActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/DatabaseHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/database/DigDataSQLiteOpenHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/DigitizingDataApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/FindVslaActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/GlobalConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/Repository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/tests/RepositoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/.idea/dictionaries/Sarahk.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/Validator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/Vsla.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaAdminDashboardActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaAdminFunctions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaKit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaKitDeliveryActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaKitProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaKitProviderAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/VslaPassKeyGenerate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/src/org/applab/client/digdata/admin/provider/VslaProviderAPI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/values/color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/values/dimen.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/header.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/vsla_admin_dashboard.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/vsla_kit_delivery.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/drawable-hdpi/vsla_register_tab.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/layout/vsla_search.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../org.applab.digdata.client.admin/res/drawable-hdpi/vsla_search_tab.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/ListVslaActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaListArrayAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/context_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/row_vsla_list.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/vsla_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DashboardActivity.java" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DashboardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DatabaseHandler.java" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DatabaseHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/FindVslaActivity.java" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/FindVslaActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/LoginActivity.java" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaPassKeyGenerateActivity.java" afterPath="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaPassKeyGenerateActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login.xml" afterPath="$PROJECT_DIR$/res/layout/login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/vsla_kit_delivery.xml" afterPath="$PROJECT_DIR$/res/layout/vsla_kit_delivery.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/vsla_pass_key.xml" afterPath="$PROJECT_DIR$/res/layout/vsla_pass_key.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BBDigDataAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373269181685" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373866392820" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375110309999" ignored="false" />
     <file path="$PROJECT_DIR$/../org.applab.digdata.client.admin/AndroidManifest.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1372938372867" ignored="false" />
     <file path="$PROJECT_DIR$/../org.applab.digdata.client.admin/default.properties" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1372938444669" ignored="false" />
     <file path="/local.properties" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1372938592820" ignored="false" />
@@ -79,30 +63,35 @@
     <file path="/RepositoryTest.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1372944491677" ignored="false" />
     <file path="/VslaProvider.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373259610328" ignored="false" />
     <file path="/VslaProviderAPI.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373015450491" ignored="false" />
-    <file path="/Dummy.txt" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374780390767" ignored="false" />
-    <file path="/fragment.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374506389732" ignored="false" />
-    <file path="/DatabaseHandler.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373863689254" ignored="false" />
+    <file path="/Dummy.txt" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375385418790" ignored="false" />
+    <file path="/fragment.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375356471709" ignored="false" />
+    <file path="/DatabaseHandler.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375387134687" ignored="false" />
     <file path="/VslaDAO.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373269922119" ignored="false" />
-    <file path="/FindVslaActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374493601829" ignored="false" />
+    <file path="/FindVslaActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375361403582" ignored="false" />
     <file path="/VslaAdminDashboardActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374548362609" ignored="false" />
     <file path="/vsla_admin_dashboard.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374553055356" ignored="false" />
-    <file path="/VslaKitDeliveryActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374551108713" ignored="false" />
+    <file path="/VslaKitDeliveryActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375387425088" ignored="false" />
     <file path="/vsla_kit_delivery.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374752707254" ignored="false" />
     <file path="/Vsla.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373565844790" ignored="false" />
     <file path="/VslaKitProviderAPI.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373567140272" ignored="false" />
     <file path="/Repository2.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373612321473" ignored="false" />
     <file path="/PassKeyGenerator.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1373874422419" ignored="false" />
-    <file path="/vsla_pass_key.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374751887015" ignored="false" />
-    <file path="/VslaPassKeyGenerateActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374505785312" ignored="false" />
-    <file path="/DashboardActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374751386637" ignored="false" />
+    <file path="/vsla_pass_key.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375392707397" ignored="false" />
+    <file path="/VslaPassKeyGenerateActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375384146939" ignored="false" />
+    <file path="/DashboardActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375380928953" ignored="false" />
     <file path="/styles.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374553295844" ignored="false" />
     <file path="/AlertDialogActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374491427204" ignored="false" />
     <file path="/header.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374552210822" ignored="false" />
     <file path="/color.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374550821427" ignored="false" />
     <file path="/login.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374752802289" ignored="false" />
     <file path="/DigDataSQLiteOpenHelper.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374755442859" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/org/applab/digdata/client/mob/admin/Manifest.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374780621032" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/org/applab/digdata/client/mob/admin/R.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1374780621032" ignored="false" />
+    <file path="/menu.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375103811697" ignored="false" />
+    <file path="/ListVslaActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375390439897" ignored="false" />
+    <file path="/LoginActivity.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375109298381" ignored="false" />
+    <file path="/row_vsla_list.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375391155722" ignored="false" />
+    <file path="/VslaListArrayAdapter.java" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375386207788" ignored="false" />
+    <file path="/strings.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375391630535" ignored="false" />
+    <file path="/vsla_list.xml" changelist="75085d13-56d1-4dd2-89c0-3037d84bbce4" time="1375392542138" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +152,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Validator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/Validator.java">
+      <file leaf-file-name="ListVslaActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/ListVslaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="59" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+            <state line="47" column="47" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,43 +163,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VslaKitProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaKitProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="vsla_pass_key.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/vsla_pass_key.xml">
+          <provider editor-type-id="text-editor">
+            <state line="31" column="17" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VslaProvider.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProvider.java">
+      <file leaf-file-name="header.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/header.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="61" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-5.8785944">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="27" column="40" selection-start="1124" selection-end="1124" vertical-scroll-proportion="6.52">
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DigitizingDataApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DigitizingDataApplication.java">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="29" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VslaKitDeliveryActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="28" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
+            <state line="21" column="52" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,29 +199,16 @@
       <file leaf-file-name="VslaPassKeyGenerateActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaPassKeyGenerateActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="15" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="42" column="89" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DashboardActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DashboardActivity.java">
+      <file leaf-file-name="VslaKitDeliveryActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="50" selection-start="2884" selection-end="2884" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DigDataSQLiteOpenHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DigDataSQLiteOpenHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="61" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0">
+            <state line="218" column="7" selection-start="8692" selection-end="8692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -250,18 +217,47 @@
       <file leaf-file-name="DatabaseHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DatabaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="12" selection-start="5793" selection-end="5793" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="20" column="11" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#9616#9622#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PassKeyGenerator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/PassKeyGenerator.java">
+      <file leaf-file-name="row_vsla_list.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/row_vsla_list.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+            <state line="8" column="37" selection-start="353" selection-end="353" vertical-scroll-proportion="-1.52">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vsla_list.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/vsla_list.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="75" selection-start="297" selection-end="297" vertical-scroll-proportion="-0.2">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -293,22 +289,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/vsla_pass_key.xml" />
-        <option value="$PROJECT_DIR$/res/layout/header.xml" />
+        <option value="$PROJECT_DIR$/res/menu/menu.xml" />
+        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/LoginActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/vsla_admin_dashboard.xml" />
         <option value="$PROJECT_DIR$/res/layout/vsla_kit_delivery.xml" />
-        <option value="$PROJECT_DIR$/res/layout/login.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/FindVslaActivity.java" />
         <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DashboardActivity.java" />
-        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DigDataSQLiteOpenHelper.java" />
-        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/Repository2.java" />
-        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaKitProvider.java" />
-        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaKitProviderAPI.java" />
-        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProvider2.java" />
-        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProviderAPI.java" />
-        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProvider.java" />
+        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaListArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaPassKeyGenerateActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/ListVslaActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/res/layout/row_vsla_list.xml" />
+        <option value="$PROJECT_DIR$/res/layout/login.xml" />
+        <option value="$PROJECT_DIR$/res/layout/vsla_list.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/vsla_pass_key.xml" />
       </list>
     </option>
   </component>
@@ -344,7 +340,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -362,181 +357,41 @@
               <option name="myItemId" value="BBDigDataAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="provider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BBDigDataAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="SDKs" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\BBDigDataAdmin.apk" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="ExportedApkPath" value="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\BBDigDataAdmin.apk" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="ExportedModule" value="BBDigDataAdmin" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="last_opened_file_path" value="C:/play/DigDataAdmin" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="bbdigdataadmin" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="AndroidRunProguardForReleaseBuild" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
@@ -548,6 +403,11 @@
       <recent name="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\res\values" />
       <recent name="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\src\org\applab\digdata\client\mob\admin" />
       <recent name="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\src\org\applab\digdata\client\mob\admin\database\provider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\res\menu" />
+      <recent name="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\res\layout" />
+      <recent name="C:\Users\Sarahk\IdeaProjects\BBDigDataAdmin\res\values" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.BBDigDataAdmin">
@@ -641,19 +501,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -679,6 +526,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -814,10 +674,14 @@
       <created>1374780619785</created>
       <updated>1374780619785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1374780646514</created>
+      <updated>1374780646514</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -841,30 +705,30 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7666099" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.7666099" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23560606" sideWeight="0.7666099" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.6712095" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21515152" sideWeight="0.3253833" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253833" sideWeight="0.7712121" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32197616" sideWeight="0.76969695" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36666667" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23339012" sideWeight="0.7113636" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39318183" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23339012" sideWeight="0.71060604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -926,76 +790,60 @@
     <MESSAGE value="First commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProvider2.java">
+    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProviderAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="18" selection-start="5766" selection-end="5766" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/dimen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/FindVslaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+        <state line="17" column="40" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaAdminDashboardActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+        <state line="49" column="55" selection-start="1370" selection-end="1569" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/vsla_kit_delivery.xml">
+      <provider editor-type-id="text-editor">
+        <state line="59" column="43" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DashboardActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="28" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0">
+        <state line="108" column="0" selection-start="3592" selection-end="3592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DatabaseHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/FindVslaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="12" selection-start="5793" selection-end="5793" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="51" column="59" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DigitizingDataApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaListArrayAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
+        <state line="49" column="33" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,61 +852,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaPassKeyGenerateActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="15" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/DashboardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="50" selection-start="2884" selection-end="2884" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DigDataSQLiteOpenHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="61" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0">
+        <state line="42" column="89" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/PassKeyGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/VslaKitDeliveryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+        <state line="218" column="7" selection-start="8692" selection-end="8692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/Validator.java">
+    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/database/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="59" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
+        <state line="20" column="11" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#9616#9622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/ListVslaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="47" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaKitProvider.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/login.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/row_vsla_list.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="8" column="37" selection-start="353" selection-end="353" vertical-scroll-proportion="-1.52">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="40" selection-start="1124" selection-end="1124" vertical-scroll-proportion="6.52">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/vsla_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="75" selection-start="297" selection-end="297" vertical-scroll-proportion="-0.2">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/applab/digdata/client/mob/admin/provider/VslaProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="61" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-5.8785944">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/res/layout/vsla_pass_key.xml">
+      <provider editor-type-id="text-editor">
+        <state line="31" column="17" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
