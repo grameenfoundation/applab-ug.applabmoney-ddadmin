@@ -8,25 +8,26 @@
     <!-- Consistent screen header-->
     <ViewStub
             android:id="@+id/vsHeader"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inflatedId="@+id/header"
             android:layout="@layout/header"/>
     <!-- Screen Design for VSLA Register -->
     <TextView
             android:id="@+id/vslaSearchLabel"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/screenLabelText"
             android:text="@string/vslaIdPromptText"
             android:singleLine="false"
             android:textSize="@dimen/text_size_medium"/>
 
-    <ListView android:id="@android:id/list"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:choiceMode="singleChoice"
-              android:layout_marginTop="15dp"
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:layout_marginTop="15dp"
             />
 
 </LinearLayout>

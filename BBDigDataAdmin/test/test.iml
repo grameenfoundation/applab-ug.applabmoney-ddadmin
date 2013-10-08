@@ -16,7 +16,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="BBDigDataAdmin" scope="PROVIDED" />
+    <orderEntry type="module" module-name="BBLedgerLinkAdmin" scope="PROVIDED" />
   </component>
 </module>
 

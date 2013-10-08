@@ -1,0 +1,208 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <!-- android:background="#3b3b3b"> -->
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+            <!--  VSLA CODE Label -->
+            <TextView
+                    android:id="@+id/vslaCodeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/screenLabelText"
+                    android:text="@string/vslaCode"
+                    android:layout_gravity="center"/>
+
+            <TextView
+                    android:id="@+id/vslaCodeTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/text_size_medium"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+            <!--  VSLA Name Label -->
+            <TextView
+                    android:id="@+id/vslaNameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/screenLabelText"
+                    android:text="@string/vslaName"
+                    android:layout_gravity="center"/>
+
+            <TextView
+                    android:id="@+id/vslaNameTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_medium"
+                    android:layout_gravity="center|left"/>
+        </TableRow>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/horizontal_ribbon"/>
+
+        <!--  Phone Manufacturer Label -->
+        <TextView
+                android:id="@+id/phoneManufacturerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/phoneType"
+                android:paddingTop="15dp"
+                android:layout_marginTop="15dp"/>
+
+        <!--  Phone Manufacturer Spinner -->
+        <Spinner
+                android:id="@+id/phone_manufacturer_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenInputText"
+                android:focusable="true"
+                android:clickable="true">
+
+            <requestFocus/>
+        </Spinner>
+
+        <!--  Phone Model Label -->
+        <TextView
+                android:id="@+id/phoneModelText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/phoneModel"/>
+
+        <!--  Phone Model Text -->
+        <EditText
+                android:id="@+id/phoneModelTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                style="@style/screenInputText"/>
+
+        <!--  Phone IMEI Label -->
+        <TextView
+                android:id="@+id/phoneImeiText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/phoneImei"/>
+
+        <!-- Phone IMEI Edit field -->
+        <EditText
+                android:id="@+id/phoneImeiTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                style="@style/screenInputText"/>
+
+        <!--  Phone Serial Number Label -->
+        <TextView
+                android:id="@+id/phoneSerialNumberText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/phoneSerialNumber"/>
+
+        <!-- Phone Serial Number Input field -->
+        <EditText
+                android:id="@+id/phoneSerialNumberTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenInputText"
+                android:inputType="number"/>
+
+        <!--  Phone Number Label -->
+        <TextView
+                android:id="@+id/phoneNumberText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/phoneNumber"/>
+
+        <!-- Phone Number Input field -->
+        <EditText
+                android:id="@+id/phoneNumberTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenInputText"
+                android:inputType="phone"/>
+
+        <!--
+            <TextView
+                    android:id="@+id/chargeSetManufacturerText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/screenLabelText"
+                    android:text="@string/chargeSetManufacturer"/>
+
+            <Spinner
+                    android:id="@+id/chargeset_manufacturer_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/screenInputText"/>
+
+            <TextView
+                    android:id="@+id/chargeSetSerialText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/screenLabelText"
+                    android:text="@string/chargeSetSerial"/>
+
+            <EditText
+                    android:id="@+id/chargeSetSerial"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/screenInputText"
+                    android:inputType="text"/>       -->
+
+        <!--  Received by Label -->
+        <TextView
+                android:id="@+id/receivedByText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/receivedBy"/>
+
+        <!--  Received by Text -->
+        <EditText
+                android:id="@+id/receivedByTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenInputText"
+                android:inputType="text"/>
+
+        <!--  Receipient Role Label -->
+        <TextView
+                android:id="@+id/recipientRoleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/receivedByRole"/>
+
+        <!--  Receipient Role by Text -->
+        <EditText
+                android:id="@+id/recipientRoleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/screenInputText"
+                android:inputType="text"/>
+    </LinearLayout>
+</ScrollView>

@@ -46,14 +46,14 @@
             <TextView
                     android:layout_width="88dp"
                     android:layout_height="42dp"
-                    android:text="@string/vslaId"
+                    android:text="@string/vslaCode"
                     android:id="@+id/textView"
                     android:layout_gravity="center"/>
 
             <TextView
                     android:layout_width="88dp"
                     android:layout_height="42dp"
-                    android:id="@+id/vslaIdTxt"
+                    android:id="@+id/vslaCodeTxt"
                     android:layout_gravity="center"/>
         </TableRow>
 
@@ -72,7 +72,7 @@
             <Button
                     android:id="@+id/deliver_kit_button"
                     style="@style/dashboardButton"
-                    android:text="@string/deliverKit"
+                    android:text="@string/txtdeliverKit"
                     android:onClick="onClickDashboard"
                     android:layout_width="0dp"
                     android:layout_weight="0.43"/>
@@ -87,7 +87,7 @@
             <Button
                     android:id="@+id/generate_passkey_button"
                     style="@style/dashboardButton"
-                    android:text="@string/generatePasskey"
+                    android:text="@string/txtgeneratePasskey"
                     android:onClick="onClickDashboard"
                     android:layout_width="0dp"
                     android:layout_weight="0.43"/>

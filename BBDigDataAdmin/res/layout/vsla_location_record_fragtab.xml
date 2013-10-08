@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+        <!--  VSLA ID Label -->
+        <TextView
+                android:id="@+id/vslaCodeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/vslaCode"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:id="@+id/vslaCodeTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_size_medium"/>
+    </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+        <!--  VSLA Name Label -->
+        <TextView
+                android:id="@+id/vslaNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/screenLabelText"
+                android:text="@string/vslaName"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:id="@+id/vslaNameTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_gravity="center|left"/>
+    </TableRow>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/horizontal_ribbon"/>
+
+    <!--  GPS Location Label -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vslaGPSLabel"
+            style="@style/screenLabelText"
+            android:text="@string/vslaGPS"
+            android:paddingTop="15dp"
+            android:layout_marginTop="15dp"/>
+
+
+    <!-- <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/vslaGPSTxt"
+             style="@style/screenLabelText"/>    -->
+
+    <!-- GPS Location Input field -->
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vslaGPSTxt"
+            android:textSize="@dimen/text_size_medium"
+            android:inputType="textMultiLine"
+            android:editable="false"
+            android:textColor="@color/input_text"
+            android:clickable="false"
+            android:enabled="false"/>
+
+</LinearLayout>

@@ -25,7 +25,7 @@
                 android:id="@+id/btnHome"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Exit"
+                android:text="Back"
                 style="@style/screenLabelText"
                 android:onClick="btnHomeClick"
                 android:layout_gravity="right"

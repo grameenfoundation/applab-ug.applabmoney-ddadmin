@@ -6,8 +6,9 @@
 
     <uses-sdk
             android:minSdkVersion="9"
-            android:targetSdkVersion="11"/>
+            android:targetSdkVersion="15"/>
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
                      android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission xmlns:android="http://schemas.android.com/apk/res/android"
@@ -21,11 +22,15 @@
 
     <application
             android:label="@string/app_name"
-            android:icon="@drawable/icon">
+            android:icon="@drawable/icon"
+            android:theme="@style/Theme.Sherlock">
+
         <activity
-                android:name="LoginActivity"
-                android:label="@string/app_name">
+                android:name="org.applab.ledgerlink.client.mob.admin.LoginActivity"
+                android:label="@string/app_name"
+                android:uiOptions="splitActionBarWhenNarrow">
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
@@ -33,21 +38,16 @@
 
         <!-- VSLA Admin Activities-->
         <activity
-                android:name=".DashboardActivity"/>
+                android:name="org.applab.ledgerlink.client.mob.admin.ActivateDDAdminActivity"/>
         <activity
-                android:name=".VslaAdminDashboardActivity"/>
+                android:name="org.applab.ledgerlink.client.mob.admin.VslaAdminFunctionsActivity"/>
         <activity
-                android:name=".VslaKitDeliveryActivity"/>
-        <activity
-                android:name=".ListVslaActivity"/>
-        <activity
-                android:name=".VslaPassKeyGenerateActivity"/>
+                android:name="org.applab.ledgerlink.client.mob.admin.ListVslaActivity"/>
 
-        <!--
-           <provider
-                   android:name=".provider.VslaProvider"
-                   android:authorities="org.applab.digdata.client.mob.admin.provider.VslaProvider" >
-           </provider>  -->
+        <!-- <provider
+                 android:name=".provider.VslaProvider3"
+                 android:authorities="org.applab.digdata.provider" >
+         </provider>      -->
 
     </application>
 

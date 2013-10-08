@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="foreground1">#cd3438</color>
+    <color name="foreground1">#ff2f84cd</color>
     <color name="title_background">#000000</color>
+    <color name="horizontal_ribbon">#ff5295cd</color>
+    <color name="input_text">#ffffffff</color>
+
 </resources>
